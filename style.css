@@ -1,11 +1,12 @@
 body {
     background-color: #E5E5E5;
     font-family: sans-serif;
+    background-image: url(imgs/index/pattern.png)
 }
 
 nav {
-    background-color: #808080;
-    border-bottom: solid 5px #404040; 
+    background-color: #335075;
+    border-bottom: solid 5px #fac5c4; 
     margin: 0px;
     padding: 1em;
 }
@@ -47,8 +48,8 @@ nav a {
 
 h2 {
     margin: 0 -16px 0 -16px;
-    font-weight: bold;
-    background-color: #808080;
+    font-family: "MADE Gentle";
+    background-color: #A0A0FF;
     font-size: 3.5em;
     text-align: center;
     color: #FFFFFF;
@@ -62,10 +63,12 @@ h2 {
 }
 
 #about-me {
-    font-size: 1.5em;
+    font-size: 1.55em;
     width: 45%;
     position: relative;
     text-align: justify;
+    color: #232323;
+    font-family: "MADE Gentle";
     top: 4em;
     left: 4em;
 }
@@ -88,4 +91,25 @@ h2 {
     text-align: right;
     right: 10px;
     width: 50%;
+}
+
+#a {
+     background-color: aqua;
+}
+
+#projetos {
+   
+}
+
+#projetos input {
+    background-color: #0000FF;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #335075;
+    padding: 30px;
 }
