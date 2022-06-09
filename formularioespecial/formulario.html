@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+            <title>Formulário Especial</title>
+        </head>
+        <body>
+            <h1>Formulário Completo &hearts;</h1>
+            <form action="recebe-formulario.php" method="post">
+                
+                <label for="nome_id">Nome: </label>
+                <input 
+                    id="nome_id"
+                    type="text"
+                    placeholder="Digite o seu nome aqui."
+                    name="name">
+                </br>
+                <label for="email_id">Email: </label>
+                <input 
+                    id="email_id"
+                    type="mail"
+                    placeholder="Seu email"
+                    name="email"
+                    required>
+                </br>
+                <label for="telefone_id">Telefone: </label>
+                <input 
+                    id="telefone_id"
+                    type="tel"
+                    placeholder="Seu telefone"
+                    name="telefone">
+                </br>
+                <label for="site_id">Site: </label>
+                <input 
+                    id="site_id"
+                    type="url"
+                    placeholder="Seu site"
+                    name="site">
+                </br>
+                <label for="datanasc_id">Nascimento: </label>
+                <input 
+                    id="datanasc_id"
+                    type="date"
+                    name="datanasc">
+                </br>
+                <label for="filhos_id">Quantidade de Filhos: </label>
+                <input 
+                    id="filhos_id"
+                    type="text"
+                    name="filhos">
+                </br>
+                <label for="temp_id">Temperatura hoje: </label>
+                <input 
+                    id="temp_id"
+                    type="text"
+                    name="temp">
+                </br>
+                <label for="hora_id">Hora local: </label>
+                <input 
+                    id="hora_id"
+                    type="time"
+                    name="hora">
+                </br>
+                <label for="senha_id">Sua senha: </label>
+                <input 
+                    id="senha_id"
+                    type="password"
+                    placeholder="Sua senha"
+                    name="senha">
+                </br>
+                </br>
+                
+                <label for="logicacomp_id"><strong>Qual a disciplina que você mais gosta?</strong></label></br>
+                <input 
+                    id="logicacomp_id"
+                    type="radio"
+                    name="discradio"
+                    value="logicacomp">
+                <label for="logicacomp_id">Lógica Computacional</label>
+                </br>
+
+                <input 
+                    id="dweb_id"
+                    type="radio"
+                    name="discradio"
+                    value="dweb">
+                <label for="dweb_id">Desenvolvimento Web</label>
+                </br>
+                </br>
+
+                <label for="cor_id">Cor preferida: </label>
+                <input
+                    id="cor_id"
+                    type="color"
+                    name="cor">
+                </br>
+                </br>
+                <label for="mensagem_id">Mensagem: </label></br>
+                <textarea
+                    id="mensagem_id"
+                    placeholder="Digite sua mensagem"
+                    name="mensagem"
+                    cols="100"
+                    rows="25">
+                </textarea>
+                </br>
+                <label for="newsletter_id">Deixe a caixa marcada para receber nossos e-mails </label>
+                <input 
+                    id="newsletter_id"
+                    type="checkbox"
+                    name="emailbox"
+                    value="newsletter">
+                </br>
+                <label for="parceiros_id">Deseja receber e-mails de parceiros? </label>
+                <input 
+                    id="parceiros_id"
+                    type="checkbox"
+                    name="emailbox"
+                    value="parceiros">
+                </br>
+                </br>
+            <input type="submit">
+            </form>
+        </body>
+    </html>

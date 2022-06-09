@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="iso-8859-1">
+            <title>Formulário de Venda - Gov.br</title>
+        </head>
+
+        <body>
+            <h1>Formulário de Venda - Gov.br</h1>          
+            
+            <form action="recebe-validacao.php" method="post">
+            
+            <header>    
+                <label for="nome_id">Nome Completo: </label>
+                    <input type="text" required></br></br>
+                
+                <label for="pis_id">PIS: </label>
+                    <input id="pis_id" type="text" disabled></br></br>
+
+                <label for="cep_id">CEP: </label>
+                    <input type="text" id="cep_id" placeholder="00000-000" pattern="[0-9]{5}-[0-9]{3}"></br></br>
+
+                <label for="compres_id">Comprovante de Residência: </label>
+                    <input id="compres_id" type="file"></br></br>
+
+                <label for="operacao_id">Tipo de Operação: </label>
+                    <input type="text" id="operacao_id" name="operacao" value="Venda" readonly></br></br> 
+            </header>        
+            
+            <article>
+                <fieldset>
+                    <legend><strong>Carros</strong></legend>
+                    
+                    <label for="placac_id">Placa do Carro: </label>
+                        <input type="text" id="placac_id" placeholder="AAA 0000" pattern="[A-Z]{3} [0-9]{4}"></br></br>
+                    
+                    <label for="or_id">Órgão Regulador: </label>
+                        <input list="orgaos" name="or" id="or_id">
+                            <datalist id="orgaos">
+                                <option value="CONTRAN">
+                                <option value="CETRAN">
+                                <option value="CETRADIFE">
+                                <option value="DENATRAN">
+                                <option value="DETRAN">
+                        </datalist></br></br>
+                    
+                    <label for="carros">Modelo:</label>
+                        <select id="carros" multiple>
+                            <option selected>-----</option>
+                                <optgroup label="Fiat"></optgroup>
+                                    <option value="argo">Argo</option>
+                                    <option value="pulse">Pulse</option>
+                                    <option value="mobi">Mobi</option>
+                        </select>
+                </fieldset></br>
+            </article>
+
+            <article>
+                <fieldset>
+                    <legend><strong>Motos</strong></legend>
+                    
+                    <label for="placam_id">Placa da Moto: </label>
+                        <input type="text" id="placam_id" placeholder="AAA 0000" pattern="[A-Z]{3} [0-9]{4}"></br></br>
+                    
+                    <label for="or_id">Órgão Regulador: </label>
+                        <input list="orgaos" name="or" id="or_id">
+                            <datalist id="orgaos">
+                                <option value="CONTRAN">
+                                <option value="CETRAN">
+                                <option value="CETRADIFE">
+                                <option value="DENATRAN">
+                                <option value="DETRAN">
+                        </datalist></br></br>
+                    
+                    <label for="motos">Modelo:</label>
+                        <select id="motos" multiple>
+                            <option selected>-----</option>
+                                <optgroup label="Honda"></optgroup>
+                                    <option value="biz">Biz</option>
+                                    <option value="cg">CG 160</option>
+                                    <option value="xadv">X-ADV</option>
+                                    <option value="adv">ADV</option>
+                        </select>
+                </fieldset></br>          
+            </article>
+            
+            <footer>
+                <input type="submit" value="Enviar!">
+                </br>
+                </br>
+                </br>
+                <input type="reset" value="Recomeçar">
+            </footer>
+        </form>
+        </body>
+    </html>

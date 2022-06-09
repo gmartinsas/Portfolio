@@ -1,0 +1,13 @@
+.texto-principal {
+    padding-left: 20px;
+    padding-block: 5px;
+}
+
+#topo {
+    background-color: rgb(191, 250, 230);
+}
+
+#tps {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
