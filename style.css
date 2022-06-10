@@ -1,7 +1,6 @@
 body {
-    background-color: #E5E5E5;
+    background: #E5E5E5 url(imgs/index/pattern.png);
     font-family: sans-serif;
-    background-image: url(imgs/index/pattern.png)
 }
 
 nav {
@@ -67,7 +66,7 @@ h2 {
     width: 45%;
     position: relative;
     text-align: justify;
-    color: #232323;
+    color: #404040;
     font-family: "MADE Gentle";
     top: 4em;
     left: 4em;
@@ -93,12 +92,18 @@ h2 {
     width: 50%;
 }
 
-#a {
-     background-color: aqua;
+#artigos {
+    position: relative;
+    top: 16em;
 }
 
 #projetos {
    
+}
+
+h3 {
+    text-align: center;
+    top: 6em;
 }
 
 #projetos input {
@@ -112,4 +117,6 @@ footer {
     font-weight: bold;
     background-color: #335075;
     padding: 30px;
+    position: relative;
+    top: 16em;
 }
