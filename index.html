@@ -10,13 +10,15 @@
         
         <body>
             <header>
-                <nav>
-                    <img id="logo" src="imgs/index/logo.png" alt="">
+                <nav id="navbar">
+                    <a href="index.html"><img id="logo" src="imgs/index/logo.png" alt=""></a>
                     <h1 id="titulo">Portfólio + Currículo de Ariel Martins</h1>
-                    <div class="nav-bar-links"> 
-                        <a href="form.html">Formação Acadêmica - IFSP</a>
-                        <a href="ui.html">UI/UX Design</a>
-                        <a href="frontend.html">Front-End</a>
+                    <div class="nav-bar-links">
+                        <ul>
+                            <li><a href="form.html">Formação Acadêmica - IFSP</a></li>
+                            <li><a href="ui.html">UI/UX Design</a></li>
+                            <li><a href="frontend.html">Front-End</a></li>
+                        </ul>
                     </div>
                 </nav>
             </header>
@@ -28,38 +30,21 @@
                 <img id="retrato" src="imgs/index/eu.jpg" alt="">
             </article>
             <article id="artigos">    
+                
                 <section id="projetos">
                     <h3>Meus principais projetos!</h3>
-                    <div id="artigo-01">
-                        <img>
-                        <input type="button" value="Ver mais">
-                    </div>
-                    <div id="artigo-02">
-                        <img>
-                        <input type="button" value="Ver mais">
-                    </div>
-                    <div id="artigo-03">
-                        <img>
-                        <input type="button" value="Ver mais">
+                    <div class="container">    
+                        <div id="artigo-01">
+                            <a href="http://gabrielmartins.rf.gd/portfolio/home.html" target="_blank"><img src="imgs/index/artigo01.png"></a>
+                        </div>
+                        <div id="artigo-02">
+                            <a href="https://www.figma.com/proto/a4mZ52wskZyTONjGEVnTuh/FIGMA01---Projeto-Final?page-id=0%3A1&node-id=2%3A153&viewport=298%2C370%2C0.16&scaling=scale-down&starting-point-node-id=2%3A153" target="_blank"><img src="imgs/index/artigo02.png"></a>
+                        </div>
                     </div>
                 </section>
-                <section id="onde-me-encontrar">
-                    <h3>Onde me encontrar?</h3>
-                    <div id="site-01">
-                        <img>
-                        <input type="image">
-                    </div>
-                    <div id="site-02">
-                        <img>
-                        <input type="image">
-                    </div>
-                    <div id="site-03">
-                        <img>
-                        <input type="image">
-                    </div>
-                </section>
+                <h4 id="visible">Visibilidade</h4>
             </article>
-            
-            <footer>&copy; Ariel Martins - 2022</footer>
+            <footer>Trabalho de Desenvolvimento Web (CSS) - 1º Semestre - ADS/IFSP<br>&copy; Ariel Martins - 2022</footer>
+            <a href="#navbar"><img id="up" src="imgs/index/seta-fix.png" alt="Botão de seta para cima num frame redondo"></a>
         </body>
     </html>
