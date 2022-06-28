@@ -12,15 +12,15 @@ A ideia partiu da minha necessidade de ter um site próprio para exposição e r
 
 ## Como funciona?
 
-O site está dividido por quatro páginas:
+O site será dividido por quatro páginas:
 
 🏡 Home/Index
 
-🎓 Formação Acadêmica (Atividades) — IFSP + Alura
+🎓 Formação Acadêmica (Atividades) — IFSP + Alura (em breve)
 
-📲 UI/UX Design
+📲 UI/UX Design (em breve)
 
-👨🏾‍💻 Front-End
+👨🏾‍💻 Front-End (em breve)
 
 ---
 
