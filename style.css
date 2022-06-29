@@ -38,11 +38,29 @@ nav li {
 }
 
 nav li a {
-    text-decoration: none;
-    color: #FFFFFF;
     position: relative;
     top: 36px;
     margin: 0 0 0 10px;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav li a:active {
+    text-decoration: none;
+    color: #fac5c4;
 }
 
 .grid {
@@ -113,16 +131,15 @@ h2 {
     font-size: 3em;
     color: #232323;
     position: relative;
-    top: 1em;
+    top: 0.5em;
 }
 
 h3 {
     text-align: center;
-    top: 6em;
 }
 
 .container {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
      
